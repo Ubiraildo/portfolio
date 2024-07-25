@@ -1,0 +1,54 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(28, 25, 25);
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .começo {
+    text-align: center;
+    margin-top: 60%;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 380px; /* Adicione espaço acima da nova seção */
+    text-align: left;
+  }
+  
+  .image {
+    max-width: 50%;
+    border-radius: 30%;
+  }
+  
+  .text {
+    max-width: 400px;
+  }
+  
+  .text h4 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .text p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+  }
+  
